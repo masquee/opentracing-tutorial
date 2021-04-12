@@ -6,11 +6,11 @@ import (
 	"net/url"
 	"os"
 
+	xhttp "github.com/masquee/opentracing-tutorial/go/lib/http"
+	"github.com/masquee/opentracing-tutorial/go/lib/tracing"
 	"github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
 	"github.com/opentracing/opentracing-go/log"
-	xhttp "github.com/yurishkuro/opentracing-tutorial/go/lib/http"
-	"github.com/yurishkuro/opentracing-tutorial/go/lib/tracing"
 )
 
 func main() {

@@ -4,9 +4,9 @@ import (
 	"log"
 	"net/http"
 
+	"github.com/masquee/opentracing-tutorial/go/lib/tracing"
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
-	"github.com/yurishkuro/opentracing-tutorial/go/lib/tracing"
 )
 
 func main() {
