@@ -1,4 +1,4 @@
-module opentracing-tutorial
+module lesson02
 
 go 1.16
 
